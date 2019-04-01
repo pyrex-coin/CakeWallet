@@ -11,7 +11,7 @@ import CWMonero
 
 private let morphTokenUri = "https://api.morphtoken.com"
 private let xmrtoUri = "https://xmr.to/api/v2/xmr2btc"
-private let cakeUserAgent = "CakeWallet/XMR iOS"
+private let cakeUserAgent = "CakeWallet/PYX iOS"
 
 struct ExchangeOutput {
     let address: String

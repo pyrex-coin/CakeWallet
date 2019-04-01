@@ -26,7 +26,7 @@ public enum CryptoCurrency: Currency {
     
     public init?(from string: String) {
         switch string.uppercased() {
-        case "XMR":
+        case "PYX":
             self = .monero
         case "BTC":
             self = .bitcoin
@@ -46,7 +46,7 @@ public enum CryptoCurrency: Currency {
     public func formatted() -> String {
         switch self {
         case .monero:
-            return "XMR"
+            return "PYX"
         case .bitcoin:
             return "BTC"
         case .ethereum:

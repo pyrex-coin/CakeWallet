@@ -297,7 +297,7 @@ final class DashboardController: BaseViewController<DashboardView>, StoreSubscri
             return
         }
         
-        contentView.cryptoTitleLabel.text = "XMR"
+        contentView.cryptoTitleLabel.text = "PYX"
             + " "
             + (showAbleBalance ? NSLocalizedString("available_balance", comment: "") : NSLocalizedString("full_balance", comment: ""))
         contentView.cryptoAmountLabel.text = amount.formatted()

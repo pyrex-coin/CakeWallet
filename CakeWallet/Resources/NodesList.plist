@@ -5,44 +5,24 @@
 	<dict>
 		<key>isDefault</key>
 		<true/>
-		<key>password</key>
-		<string>public_node</string>
-		<key>login</key>
-		<string>cake</string>
 		<key>uri</key>
-		<string>node.cakewallet.io:18081</string>
+		<string>pyrex-node.tokl.io:6870</string>
 	</dict>
 	<dict>
 		<key>uri</key>
-		<string>node.bohemianpool.com:18081</string>
+		<string>node1.pyrexcoin.com:6870</string>
 	</dict>
 	<dict>
 		<key>uri</key>
-		<string>node.xmr.pt:18081</string>
+		<string>node2.pyrexcoin.com:6870</string>
 	</dict>
 	<dict>
 		<key>uri</key>
-		<string>node.xmr.ru:13666</string>
+		<string>node3.pyrexcoin.com:6870</string>
 	</dict>
 	<dict>
 		<key>uri</key>
-		<string>opennode.xmr-tw.org:18089</string>
-	</dict>
-	<dict>
-		<key>uri</key>
-		<string>node.moneroworld.com:18089</string>
-	</dict>
-	<dict>
-		<key>uri</key>
-		<string>node.xmrbackb.one:18081</string>
-	</dict>
-	<dict>
-		<key>uri</key>
-		<string>node.viaxmr.com:18081</string>
-	</dict>
-	<dict>
-		<key>uri</key>
-		<string>ushouldrunyourownnode.moneroworld.com:18089</string>
+		<string>ushouldrunyourownnode.pyrexcoin.com:6870</string>
 	</dict>
 </array>
 </plist>

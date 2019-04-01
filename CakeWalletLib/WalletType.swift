@@ -17,7 +17,7 @@ public enum WalletType {
         case .bitcoin:
             return "Bitcoin"
         case .monero:
-            return "Monero"
+            return "Pyrexcoin"
         }
     }
 }

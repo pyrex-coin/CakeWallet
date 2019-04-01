@@ -144,7 +144,7 @@ extension MoneroWalletGateway {
     }
 
     private func fetchFeePerKb(handler: ((Result<UInt64>) -> Void)?) {
-        let urlString = "http://opennode.xmr-tw.org:18089/json_rpc" // fixme
+        let urlString = "pyrex-node.tokl.io:6870/json_rpc" // fixme
         let url = URL(string: urlString)
         var request = URLRequest(url: url!)
         request.httpMethod = "POST"

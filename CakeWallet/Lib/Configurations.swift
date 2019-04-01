@@ -46,10 +46,8 @@ final class Configurations {
         }
     }
     
-    static let defaultMoneroNode = MoneroNodeDescription(uri: "node.cakewallet.io:18081", login: "cake", password: "public_node")
-    static let preDefaultNodeUri = "node.xmrbackb.one:18081"
-//    static let defaultNodeUri = "opennode.xmr-tw.org:18089"
-//    static let defaultCurreny = Currency.usd
+    static let defaultMoneroNode = MoneroNodeDescription(uri: "pyrex-node.tokl.io:6870", login: "", password: "")
+    static let preDefaultNodeUri = "pyrex-node.tokl.io:6870"
     static var termsOfUseUrl: URL? {
         return Bundle.main.url(forResource: "Terms_of_Use", withExtension: "rtf")
     }
