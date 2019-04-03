@@ -26,7 +26,7 @@ cd ../..
 echo "============================ Pyrex-gui ============================"
 
 echo "Cloning Pyrex-gui from - $MONERO_CORE_URL"
-git clone -b master $MONERO_CORE_URL $MONERO_CORE_DIR_PATH
+git clone -b build $MONERO_CORE_URL $MONERO_CORE_DIR_PATH
 cd $MONERO_CORE_DIR_PATH
 echo "Cloning Pyrex from - $MONERO_URL to - $MONERO_DIR_PATH"
 git clone --recursive $MONERO_URL $MONERO_DIR_PATH
